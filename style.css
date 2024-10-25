@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    /* padding: 10px 0; */
+    background: rgb(0,0,0);
+background: linear-gradient(197deg, rgba(0,0,0,1) 0%, rgba(204,51,217,1) 60%);
+}
+
+.header-logo img{
+    width: 150px;
+}
+
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+   
+}
+nav ul li{
+    padding-right: 20px;
+    color: white;
+   
+}
+.btn a{
+    color: aliceblue;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+.banner{
+    background: rgb(0,0,0);
+background: linear-gradient(197deg, rgba(0,0,0,1) 0%, rgba(204,51,217,1) 60%);
+}
+.banner-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    animation: move 1.1s ease forwards alternate-reverse;
+}
+.banner-h1-p{
+    color: aliceblue;
+    margin-bottom: 60px;
+    
+}
+.banner-h1-p h1{
+    font-size: 50px;
+    margin-bottom: 20px;    
+}
+.banner-img1 img{
+    width: 300px;
+}
+.banner-img-2 img{
+    width: 350px;
+}
+@keyframes move{
+    from{
+        filter: blur(0px);
+        transform: translateX(20px);
+    }
+    to{
+        filter: blur(100px);
+        transform: translateX(-200px);
+    }
+}
+
+/* ////////////////////////////////////////////////// */
+.welcome{
+    margin-top: 40px;
+}
+.welcome-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome-2{
+    padding-bottom: 90px;
+}
+.welcome-1{
+    margin-right: 40px;
+}
+.welcome-1 img{
+    width: 500px;
+}
+.welcome-2 h2{
+     font-size: 40px;
+     color: #021A38;
+     margin-bottom: 20px;
+    
+}
+
+.welcome-2 p{
+    margin-bottom: 40px;
+    line-height: 30px;
+    width: 600px;
+}
+.welcome-2 button{
+    padding: 19px 50px;
+   background-color: #021A38;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+}
+/* ////////////////////////////////////////////////////////////////// */
+.card-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: move 1.3s ease forwards alternate-reverse;
+ 
+}
+.cards{
+    margin-top: 100px;
+    background-color: #021A38;
+    padding: 100px 0;
+}
+.card-2 p{
+    text-align: center;
+}
+.buuton-2{
+    text-align: center;
+    margin-top: 10px;
+}
+.card-main p{
+    margin-bottom: 10px;
+}
+.inter{
+    color: #CC33D9;
+    font-size: 20px;
+}
+.card-main button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #CC33D9;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+.card-1, .card-2, .card-3{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* /////////////////////////////////////////////////////// */
+.section{
+    margin-top: 80px;
+}
+.section h2{
+    text-align: center;
+    color: #F16D92;
+    margin-bottom: 50px;
+}
+.section-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: move 1.2s ease forwards alternate-reverse;
+}
+.section-1 h4{
+    margin-bottom: 60px;
+    color: #CC33D9;
+    font-size: 30px; 
+}
+.section-1 img{
+    width: 300px;
+    margin-right: 70px;
+}
+.section-2 h5{
+    font-size: 30px;
+    color: #CC33D9;
+    margin-bottom: 30px;
+}
+/* /////////////////////////////////////////////////////////////////// */
+.row{
+    margin-top: 90px;
+   
+}
+.row h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+    color: #021A38;
+}
+.row-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CC33D9;
+   
+}
+.row-1 h3{
+    font-size: 30px;
+    width: 300px;
+    color: aliceblue;
+}
+.row-1 img{
+    margin-top: 80px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.final{
+    margin-top: 100px;
+}
+.final-main{
+    text-align: center;
+}
+.final-1 h2{
+    font-size: 60px;
+    color: #CC33D9;
+    margin-bottom: 40px;
+}
+.final-1 p{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.final-1 input{
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.final-1 button{
+    padding: 10px 20px;
+    background-color: #CC33D9;
+    color: aliceblue;
+    border-radius: 8px;
+    border: none;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.footer{
+    margin-top: 90px;
+    background-color: #021A38;
+}
+.footer-1 p,h5{
+    width: 400px;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.footer-main{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+.footer-1{
+    margin-top: 50px;
+    color: white;
+}
+.icon i{
+    color: aliceblue;
+    margin-right: 30px;
+   font-size: 30px;
+}
+.footer-1 ul li{
+    line-height: 40px;
+}
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+   
+}
+.your-slider img{
+    width: 100%;
+    object-fit: cover;
+}
+.your-slider{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.slick-next:before {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.slick-prev:before {
+    background-color: black;
+    border-radius: 20px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////// */
+
+ 
+   .Form-main{
+     border: 2px solid white;
+     width: 100%;
+    max-width: 600px;
+    margin: 4% auto; 
+    padding: 50px;
+    border-radius: 12px;  
+    background-color: #CC33D9;
+  
+} 
+
+#f-name{
+    font-size: 20px;
+}
+#fname, #lname, #email{
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    margin-top: 10px; 
+    border: none;
+    border-radius: 4px;
+}
+
+#submit{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px 0;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+#span1, #span2, #span3{
+    color: red; 
+    
+}
+
+ .heading-1{
+    background-color: #CC33D9;
+    padding: 20% 0px;
+   text-align: center;
+    color: white;
+    font-size: 100px;
+   
+} 
+.row{
+    margin: 0px;
+}
+
+
+ 
+
+ 
+
